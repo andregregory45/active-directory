@@ -3,7 +3,7 @@
 </p>
 
 <h1>Active Directory Deployment and Administration in Azure</h1>
-This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
+This project outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
 
 
 <h2>Environments and Technologies Used</h2>
@@ -13,7 +13,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Active Directory Domain Services
 - PowerShell
 
-<h2>Operating Systems Used </h2>
+<h2>Operating Systems Used</h2>
 
 - Windows Server 2022
 - Windows 10 (21H2)
