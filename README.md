@@ -3,7 +3,7 @@
 </p>
 
 <h1>Active Directory Deployment and Administration in Azure</h1>
-This project outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
+This project outlines the implementation and administration of on-premises Active Directory within Azure Virtual Machines.<br />
 
 
 <h2>Environments and Technologies Used</h2>
