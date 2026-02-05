@@ -16,7 +16,7 @@ This project outlines the implementation and administration of on-premises Activ
 <h2>Operating Systems Used</h2>
 
 - Windows Server 2025
-- Windows 10 (21H2)
+- Windows 11 Pro (25H2)
 
 <h2>Deployment and Configuration Steps</h2>
 
