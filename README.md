@@ -23,7 +23,7 @@ This project demonstrates the implementation and administration of an Active Dir
 
 Two virtual machines (VMs) will be created in the same virtual network. One VM will be a Domain Controller (DC-1), and the other VM will be a client machine (Client-1). Client-1 will be joined to DC-1's domain, and Client-1's DNS settings will be configured to use DC-1 as the DNS server.
 
-<img width="1063" height="697" alt="image" src="https://github.com/user-attachments/assets/22781d7b-3342-4d2c-8de7-4fd0a67ac6ad" />
+<img width="800" height="688" alt="image" src="https://github.com/user-attachments/assets/29eef3dd-2efc-4417-b7aa-c3ff90cb7ff0" />
 
 <b>Important: To ensure consistent connectivity and name resolution, DC-1 is configured with a static private IP address, and Client-1 is pointed to DC-1 as its primary DNS server. If DC-1's IP address changes (DHCP lease renewal), the client will lose its ability to authenticate and resolve domain resources.</b>
 
