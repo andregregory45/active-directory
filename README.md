@@ -3,7 +3,8 @@
 </p>
 
 <h1>Active Directory Deployment and Administration in Azure</h1>
-This project outlines the implementation and administration of on-premises Active Directory within Azure Virtual Machines.<br />
+
+This project outlines the implementation and administration of on-premises Active Directory within Azure Virtual Machines. In this project, we will create two VMs in the same virtual network (VNet). One will be a Domain Controller (DC) hosting a domain, and the other will be a Client machine. We will change the DC's private IP address to a static IP address, because . Client machine will be joined to the domain. We will control the DNS settings on the client machine, the client machine will use the DC as its DNS server.<br />
 
 
 <h2>Environments and Technologies Used</h2>
