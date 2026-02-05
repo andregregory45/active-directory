@@ -21,7 +21,7 @@ This project demonstrates the implementation and administration of an Active Dir
 <h2>Setting Up Infrastructure for Active Directory</h2>
 
 <p>
-This environment consists of two virtual machines (VMs) within a unified virtual network. A Windows Server 2025 VM serves as the domain controller (DC-1), while a secondary VM running Windows 11 Pro serves as the client (Client-1). Client-1 is joined into DC-1's domain and routes all DNS traffic through DC-1.
+This environment consists of two virtual machines (VMs) within a unified virtual network. A Windows Server 2025 VM serves as the domain controller (DC-1), while a secondary VM running Windows 11 Pro serves as the client (Client-1). Client-1 is joined to DC-1's domain and routes all DNS traffic through DC-1.
 </p>
 <br />
 
@@ -29,9 +29,8 @@ This environment consists of two virtual machines (VMs) within a unified virtual
 <img width="750" height="650" alt="image" src="https://github.com/user-attachments/assets/473a72b4-2960-40fb-97a8-22b18bd125b4" />
 </p>
 <p>
-<b>Important: To ensure consistent connectivity and name resolution, DC-1 is configured with a static private IP address. If DC-1's IP address changes (DHCP lease renewal), Client-1 will lose its ability to authenticate and resolve domain resources.</b>
+<b>Important: DC-1 is configured with a static IP address to maintain consistent name resolution. This prevents authentication failures and ensures uninterrupted access to domain-joined resources (such as network shares and Group Policy Objects) that would occur if the domain controller's IP address unexpectedly changed.</b>
 
-To confirm that Client-1 is using DC-1 as the DNS server, The "ping" command will be used to test connectivity.
 </p>
 <br />
 
@@ -39,6 +38,8 @@ To confirm that Client-1 is using DC-1 as the DNS server, The "ping" command wil
 <img width="750" height="650" alt="image" src="https://github.com/user-attachments/assets/f91cd1bd-a62c-401b-adda-f633dae1ec0e" />
 </p>
 <p>
+To confirm that Client-1 is using DC-1 as the DNS server, The "ping" command will be used to test connectivity.
+
 <h2>Deployment and Configuration</h2>
 
 <p>
