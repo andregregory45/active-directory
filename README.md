@@ -21,9 +21,9 @@ This project outlines the implementation of on-premises Active Directory within 
 
 <h2>Setting Up Infrastructure for Active Directory</h2>
 
-Two virtual machines (VMs) will be created in the same virtual network (VNet). One VM will be a Domain Controller (DC), and the other VM will be a client machine. The client will be joined to the DC's domain (mydomain.com), and the DNS settings will be changed on the client machine to use the DC as its DNS server. 
+Two virtual machines (VMs) will be created in the same virtual network. One VM will be a Domain Controller (DC-1), and the other VM will be a client machine (Client-1). The client will be joined to DC-1's domain, and Client-1's DNS settings will be configured to use DC-1 as the DNS server. 
 
-<b>Important: The DC's private IP address should be set to static, because the client machine needs to be able to find the DC on the network using its domain.</b>
+<b>Important: DC-1's private IP address should be set to static, because Client-1 needs to be able to find DC-1 on the network using its domain.</b>
 
 <h2>Deployment and Configuration Steps</h2>
 
