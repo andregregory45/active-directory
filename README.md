@@ -4,8 +4,7 @@
 
 <h1>Active Directory Deployment and Administration in Azure</h1>
 
-This project demonstrates the implementation and administration of an Active Directory environment within Azure.<br />
-
+This project demonstrates the implementation and administration of an Active Directory environment within Azure virtual machines.
 
 <h2>Environments and Technologies Used</h2>
 
