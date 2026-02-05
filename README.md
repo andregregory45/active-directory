@@ -18,6 +18,10 @@ This project outlines the implementation and administration of on-premises Activ
 - Windows Server 2025
 - Windows 11 Pro (25H2)
 
+<h2>Pre-Deployment Setup</h2>
+
+Example
+
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
