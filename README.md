@@ -19,9 +19,9 @@ This project outlines the implementation of on-premises Active Directory within 
 - Windows Server 2025
 - Windows 11 Pro (25H2)
 
-<h2>Active Directory Infrastructure Setup</h2>
+<h2>Setting Up Infrastructure for Active Directory</h2>
 
-We will create two VMs in the same virtual network (VNet). One will be a Domain Controller (DC) hosting a domain, and the other will be a client machine. It's important that the DC's private IP address remains static, because the client(s) needs to consistently be able to find the DC on the network. Client machine will be joined to the domain. We will control the DNS settings on the client machine, the client machine will use the DC as its DNS server.
+Two virtual machines (VMs) will be created in the same virtual network (VNet). One VM will be a Domain Controller (DC), and the other VM will be a client machine. The client will be joined to the DC's domain (mydomain.com), and the DNS settings will be changed on the client machine to use the DC as its DNS server. <b>Important: The DC's private IP address should be set to static, because the client machine needs to be able to find the DC on the network using its domain.</b>
 
 <h2>Deployment and Configuration Steps</h2>
 
