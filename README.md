@@ -21,7 +21,7 @@ This project demonstrates the implementation and administration of an Active Dir
 
 <h2>Setting Up Infrastructure for Active Directory</h2>
 
-Two virtual machines (VMs) will be created in the same virtual network. One VM will be a Domain Controller (DC-1), and the other VM will be a client machine (Client-1). Client-1 will be joined to DC-1's domain, and Client-1's DNS settings will be configured to use DC-1 as the DNS server.
+Two virtual machines (VMs) will be created in the same virtual network. One VM will be a domain controller (DC-1), and the other VM will be a client machine (Client-1). Client-1 will be joined to DC-1's domain, and Client-1's DNS settings will be configured to use DC-1 as the DNS server.
 
 <img width="800" height="688" alt="image" src="https://github.com/user-attachments/assets/29eef3dd-2efc-4417-b7aa-c3ff90cb7ff0" />
 
