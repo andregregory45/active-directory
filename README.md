@@ -27,7 +27,7 @@ Two virtual machines (VMs) will be created in the same virtual network. One VM w
 
 <b>Important: To ensure consistent connectivity and name resolution, DC-1 is configured with a static private IP address, and Client-1 is pointed to DC-1 as its primary DNS server. If DC-1's IP address changes (DHCP lease renewal), the client will lose its ability to authenticate and resolve domain resources.</b>
 
-<img width="958" height="470" alt="image" src="https://github.com/user-attachments/assets/f91cd1bd-a62c-401b-adda-f633dae1ec0e" />
+<img width="800" height="470" alt="image" src="https://github.com/user-attachments/assets/f91cd1bd-a62c-401b-adda-f633dae1ec0e" />
 
 <h2>Deployment and Configuration</h2>
 
