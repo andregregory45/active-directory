@@ -41,9 +41,9 @@ DC-1 is configured with a static IP address to maintain domain stability. This p
 To verify connectivity while maintaining a secure environment, the following configuration was implemented:
 
 - Enabled an Inbound Firewall Rule on DC-1 to allow ICMP Echo Requests (ping) rather than disabling the firewall entirely.
-- Updated Client-1's DNS settings to point to DC-1 as the primary resolver.
-- Executed "ipconfig /flushdns" on the client machine to clear any stale records.
-- Confirmed name resolution by pinging DC-1 from Client-1 using the command "ping 10.0.0.4", verifying that the client could successfully reach the Domain Controller via its FQDN.
+- Updated Client-1's DNS settings in Azure to point to DC-1 as the primary resolver.
+- Executed "ipconfig /flushdns" on Client-1 to clear any stale records.
+- Confirmed name resolution by pinging DC-1 from Client-1 using the command "ping 10.0.0.4", verifying that the client could successfully reach the domain controller.
 
 </p>
 <br />
