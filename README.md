@@ -83,7 +83,7 @@ Install Active Directory Domain Services (AD DS) on DC-1 and promote it to a dom
 </p>
 
 <p>
-Lorem ipsum...
+Next, create an Organizational Unit (OU) named "_EMPLOYEES", and another OU named "_ADMINS".
 </p>
 <br />
 
