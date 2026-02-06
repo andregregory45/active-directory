@@ -57,5 +57,3 @@ while ($count -lt $NUMBER_OF_ACCOUNTS_TO_CREATE) {
     $count++
 
 }
-
-
