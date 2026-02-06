@@ -1,10 +1,17 @@
 <#
+.SYNOPSIS
+    Automated bulk provisioning of 1,000+ Active Directory user objects.
+
+.DESCRIPTION
+    This script creates random user accounts to simulate a large-scale corporate 
+    environment for testing and GPO application.
+    
 .NOTES
-Original Author: https://github.com/joshmadakor1
-Source: https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1
-Modified by: Andre Gregory
-Date Modified: February 6, 2026
-Changes: Fixed "$firstName" variable typo and adjusted the number of accounts for simplicity.
+    Original Author: https://github.com/joshmadakor1
+    Source: https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1
+    Modified by: Andre Gregory
+    Date Modified: February 6, 2026
+    Changes: Fixed "$firstName" variable typo and adjusted the number of accounts for simplicity.
 #>
 
 # ----- Edit these variables for your own use case ----- #
@@ -53,3 +60,4 @@ while ($count -lt $NUMBER_OF_ACCOUNTS_TO_CREATE) {
     $count++
 
 }
+
