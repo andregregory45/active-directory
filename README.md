@@ -69,11 +69,11 @@ To verify connectivity while maintaining a secure environment, the following con
 <h2>Deployment and Configuration</h2>
 
 <p>
-Active Directory Domain Services
+Active Directory Domain Services is installed on DC-1.
 </p>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="750" height="650" alt="image" src="https://github.com/user-attachments/assets/3a157d1c-bffe-4aeb-9ad8-b96eecee7aea" />
 </p>
 
 <p>
