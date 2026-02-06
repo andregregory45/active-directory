@@ -69,6 +69,10 @@ To verify connectivity while maintaining a secure environment, the following con
 <h2>Deployment and Configuration</h2>
 
 <p>
+Active Directory Domain Services
+</p>
+
+<p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
