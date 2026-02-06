@@ -37,7 +37,7 @@ Function generate-random-name() {
 
 $count = 1
 while ($count -lt $NUMBER_OF_ACCOUNTS_TO_CREATE) {
-    # Debugged: Fixed variable typo ($firstName) to ensure correct AD attribute mapping
+    # Debugged: Fixed variable typo ($fisrtName) to ensure correct AD attribute mapping
     $firstName = generate-random-name
     $lastName = generate-random-name
     $username = $firstName + '.' + $lastName
