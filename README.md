@@ -15,7 +15,7 @@ This project demonstrates the implementation and administration of an Active Dir
 
 <h2>Operating Systems Used</h2>
 
-- Windows Server 2025
+- Windows Server 2022
 - Windows 11 Pro, version 25H2
 
 <h2>Setting Up Infrastructure for Active Directory</h2>
@@ -26,7 +26,7 @@ This environment consists of two virtual machines (VMs) within a unified virtual
 <br />
 
 <p>
-<img width="750" height="650" alt="image" src="https://github.com/user-attachments/assets/473a72b4-2960-40fb-97a8-22b18bd125b4" />
+<img width="750" height="650" alt="image" src="https://github.com/user-attachments/assets/7f46d88d-3412-4b20-8e49-ab4cd5ddc66f" />
 </p>
 
 <p>
@@ -69,7 +69,7 @@ To verify connectivity while maintaining a secure environment, the following con
 <h2>Deployment and Configuration</h2>
 
 <p>
-Active Directory Domain Services is installed on the domain controller.
+Install Active Directory Domain Services and promote the server to a Domain Controller.
 </p>
 
 <p>
