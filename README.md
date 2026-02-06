@@ -134,16 +134,16 @@ Log in to Client-1 as "MYDOMAIN\example_admin" and allow "Domain Users" to acces
 </p>
 
 <p>
-To simulate a corporate environment, I leveraged a community-developed PowerShell script for bulk user creation, and modified the script to adapt it to this specific domain's OU structure and to simplify user provisioning. I also identified and fixed a variable typo ($fisrtName) in the script to ensure correct attribute mapping for the "-GivenName" field.
+To simulate a corporate environment, I leveraged a community-developed PowerShell script for automatic bulk user creation on the DC, and modified the script to maintain DC stability. I also identified and fixed a variable typo ($fisrtName) in the script to ensure correct attribute mapping for the "-GivenName" field.
 
 View the full script file [here.](https://github.com/andregregory45/active-directory/blob/main/Bulk-User-Provisioning.ps1)
 
-<b>Note on Security: In the PowerShell script, passwords are set to never expire. In a production environment, "-ChangePasswordAtLogon $true" would be added to the script to comply with security best practices.</b>
+<b>Note on Security: In the PowerShell script, passwords are set to never expire. In a production environment, "-ChangePasswordAtLogon $true" would be configured to align with security best practices.</b>
 </p>
 <br />
 
 <p>
-<img width="750" height="650" alt="image" src="https://github.com/user-attachments/assets/8c913b04-6c7f-4d8b-a20f-728f83e96833" />
+<img width="750" height="650" alt="image" src="https://github.com/user-attachments/assets/6efb58c2-b5e5-4367-948e-8a5831e53b3f" />
 </p>
 
 <h2>References</h2>
