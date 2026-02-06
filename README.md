@@ -6,7 +6,7 @@
 
 This project demonstrates the implementation and administration of an Active Directory environment within Azure virtual machines.
 
-<h2>Environments and Technologies Used</h2>
+<h2>Environments, Technologies, and Languages Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop Connection
