@@ -69,7 +69,7 @@ To verify connectivity while maintaining a secure environment, the following con
 <h2>Deployment and Configuration</h2>
 
 <p>
-Install Active Directory Domain Services on DC-1 and promote it to a domain controller. Add a new forest, then specify the root domain name. "mydomain.com" is used as an example domain.
+Install Active Directory Domain Services (AD DS) on DC-1 and promote it to a domain controller. Add a new forest, then specify the root domain name. "mydomain.com" is used as an example domain.
 </p>
 
 <p>
