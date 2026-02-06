@@ -99,7 +99,7 @@ Log out of the local administrator account on DC-1, then log back in as “MYDOM
 </p>
 
 <p>
-Login to Client-1 as the original local administrator account and join it to the "mydomain.com" domain. Since Client-1 is using DC-1 as the DNS server, Client-1 is able to locate the domain controller for "mydomain.com".
+Login to Client-1 as the original local administrator account and join it to the "mydomain.com" domain. Since Client-1 is using DC-1 as the DNS server, Client-1 is able to locate the domain controller for "mydomain.com". Provide the "MYDOMAIN\example_admin" credentials when prompted by the Windows Security dialog to authorize the join.
 </p>
 <br />
 
