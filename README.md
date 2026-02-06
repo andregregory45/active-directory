@@ -69,7 +69,7 @@ To verify connectivity while maintaining a secure environment, the following con
 <h2>Deployment and Configuration</h2>
 
 <p>
-Install Active Directory Domain Services and promote the server to a Domain Controller.
+Install Active Directory Domain Services on DC-1 and promote it to a domain controller.
 </p>
 
 <p>
