@@ -134,10 +134,14 @@ Log in to Client-1 as "MYDOMAIN\example_admin" and allow "Domain Users" to acces
 </p>
 
 <p>
-To simulate a corporate environment, I leveraged a community-developed PowerShell script for bulk user creation. I audited and debugged the code to adapt it to this specific domain's OU structure.
+To simulate a corporate environment, I leveraged a community-developed PowerShell script for bulk user creation, and modified the script to adapt it to this specific domain's OU structure and to simplify user provisioning. I also identified and fixed a variable typo ($fisrtName) in the script to ensure correct attribute mapping for the "-GivenName" field.
 
 View the full script file [here.](https://github.com/andregregory45/active-directory/blob/main/Bulk-User-Provisioning.ps1)
 
-<b>Note on Security: In the PowerShell script, passwords are set to never expire. In a production environment, "-ChangePasswordAtLogon $true" would be configured to comply with security best practices.</b>
+<b>Note on Security: In the PowerShell script, passwords are set to never expire. In a production environment, "-ChangePasswordAtLogon $true" would be added to the script to comply with security best practices.</b>
 </p>
 <br />
+
+<h2>References</h2>
+
+- Original Source of Bulk User Creation Script: https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1
