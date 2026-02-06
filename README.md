@@ -125,7 +125,7 @@ Confirm that Client-1 appeared in the "Computers" container in Active Directory 
 <p>
 Log in to Client-1 as "MYDOMAIN\example_admin" and allow "Domain Users" to access Remote Desktop. This allows all domain users (later created with a PowerShell script) to log in to Client-1 via RDP.
 
-<b>Note on Security and Scalability: While this is done for the purposes of demonstration, in a production environment, this would be restricted to Domain Admins only via Restricted Groups or User Rights Assignment in a GPO.</b>
+<b>Note on Security and Scalability: While this is done for the purposes of demonstration, in a production environment, this would be restricted to specific authorized security groups via Restricted Groups or User Rights Assignment in a GPO.</b>
 </p>
 <br />
 
