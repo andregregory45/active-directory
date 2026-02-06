@@ -1,7 +1,4 @@
 <#
-.SYNOPSIS
-    Automated bulk provisioning of 1,000+ Active Directory user objects.
-
 .DESCRIPTION
     This script creates random user accounts to simulate a large-scale corporate 
     environment for testing and GPO application.
@@ -60,4 +57,5 @@ while ($count -lt $NUMBER_OF_ACCOUNTS_TO_CREATE) {
     $count++
 
 }
+
 
