@@ -142,6 +142,10 @@ View the full script file [here.](https://github.com/andregregory45/active-direc
 </p>
 <br />
 
+<p>
+<img width="750" height="650" alt="image" src="https://github.com/user-attachments/assets/8c913b04-6c7f-4d8b-a20f-728f83e96833" />
+</p>
+
 <h2>References</h2>
 
 - Original Source of Bulk User Creation Script: https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1
