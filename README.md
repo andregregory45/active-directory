@@ -120,7 +120,7 @@ Confirm that Client-1 appeared in the "Computers" container in Active Directory 
 <img width="750" height="650" alt="image" src="https://github.com/user-attachments/assets/28466239-5b85-42fe-891a-6f70f80fcb8d" />
 </p>
 
-<h2>Bulk User Provisioning With PowerShell</h2>
+<h2>Bulk User Provisioning with PowerShell</h2>
 
 <p>
 Log in to Client-1 as "MYDOMAIN\example_admin" and allow "Domain Users" to access Remote Desktop. This allows all domain users (later created with a PowerShell script) to log in to Client-1 via RDP.
@@ -156,6 +156,11 @@ When the script has finished executing, open Active Directory Users and Computer
 <p>
 <img width="559" height="363" alt="image" src="https://github.com/user-attachments/assets/a535b7d3-0585-45b8-9555-4b52666e188a" />
 </p>
+
+<h2>Group Policy and Account Management</h2>
+
+<p>
+When the
 
 <h2>References</h2>
 
