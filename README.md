@@ -134,5 +134,7 @@ Log in to Client-1 as "MYDOMAIN\example_admin" and allow "Domain Users" to acces
 </p>
 
 <p>
-View the script link [here.](https://github.com/andregregory45/active-directory/blob/main/Bulk-User-Provisioning.ps1)
+To simulate a large-scale corporate environment, I utilized a PowerShell script to automate the creation of user objects.
+
+View the full script file [here.](https://github.com/andregregory45/active-directory/blob/main/Bulk-User-Provisioning.ps1)
 </p>
