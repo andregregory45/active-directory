@@ -123,9 +123,9 @@ Confirm that Client-1 appeared in the "Computers" container in Active Directory 
 <h2>Bulk User Provisioning via PowerShell and Identity Management</h2>
 
 <p>
-Log in to Client-1 as "MYDOMAIN\example_admin" and allow standard domain users to access Remote Desktop. This allows standard users (later created with a PowerShell script) to log in to Client-1 via RDP, allowing all domain users to log in to this single machine.
+Log in to Client-1 as "MYDOMAIN\example_admin" and allow "Domain Users" to access Remote Desktop. This allows all domain users (later created with a PowerShell script) to log in to Client-1 via RDP.
 
-<b>Note on Scalability: While this is done manually for this demonstration, in a production environment, this would be managed via Restricted Groups or User Rights Assignment in a GPO.</b>
+<b>Note on Security and Scalability: While this is done for the purposes of demonstration, in a production environment, this would be restricted to Domain Admins only via Restricted Groups or User Rights Assignment in a GPO.</b>
 </p>
 <br />
 
