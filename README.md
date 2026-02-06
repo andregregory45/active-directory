@@ -139,11 +139,17 @@ To simulate a corporate environment, I leveraged a community-developed PowerShel
 View the full script file [here.](https://github.com/andregregory45/active-directory/blob/main/Bulk-User-Provisioning.ps1)
 
 <b>Note on Security: In the PowerShell script, passwords are set to never expire. In a production environment, "-ChangePasswordAtLogon $true" would be configured to align with security best practices.</b>
+
+When finished, open Active Directory Users and Computers and observe the accounts in the "_EMPLOYEES" OU.
 </p>
 <br />
 
 <p>
 <img width="750" height="650" alt="image" src="https://github.com/user-attachments/assets/d8350740-fcb0-4203-b86a-5e94ca4e3662" />
+</p>
+
+<p>
+<img width="750" height="650" alt="image" src="https://github.com/user-attachments/assets/10177283-1734-4eb0-9a49-c0099e6f7f81" />
 </p>
 
 <h2>References</h2>
