@@ -21,7 +21,7 @@ This project demonstrates the implementation and administration of an Active Dir
 <h2>Setting Up Infrastructure for Active Directory</h2>
 
 <p>
-This environment consists of two virtual machines (VMs) within a unified virtual network. A Windows Server 2025 VM serves as the domain controller (DC-1), while a secondary VM running Windows 11 Pro serves as the client (Client-1). Client-1 is joined to DC-1's domain and routes all DNS traffic through DC-1.
+This environment consists of two virtual machines (VMs) within a unified virtual network. A Windows Server 2025 VM serves as the domain controller (DC-1), while a secondary VM running Windows 11 Pro serves as the client (Client-1). Client-1 is joined to DC-1's domain and routes all DNS traffic through DC-1. The final configuration will look like this:
 </p>
 <br />
 
