@@ -134,5 +134,5 @@ Log in to Client-1 as "MYDOMAIN\example_admin" and allow "Domain Users" to acces
 </p>
 
 <p>
-Hi broo
+View the script link [here.](https://github.com/andregregory45/active-directory/blob/main/Bulk-User-Provisioning.ps1)
 </p>
