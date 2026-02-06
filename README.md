@@ -52,6 +52,10 @@ To verify connectivity while maintaining a secure environment, the following con
 <img width="750" height="650" alt="image" src="https://github.com/user-attachments/assets/cd9faf34-6f25-47d3-ba96-96bb360d2440" />
 </p>
 
+<p>
+<img width="750" height="650" alt="image" src="https://github.com/user-attachments/assets/cfa8f0d4-f8ab-40d5-a620-c33c8e7173c5" />
+</p>
+
 <h2>Deployment and Configuration</h2>
 
 <p>
