@@ -28,6 +28,7 @@ This environment consists of two virtual machines (VMs) within a unified virtual
 <p>
 <img width="750" height="650" alt="image" src="https://github.com/user-attachments/assets/473a72b4-2960-40fb-97a8-22b18bd125b4" />
 </p>
+
 <p>
 DC-1 is configured with a static IP address to maintain domain stability. This prevents authentication failures and ensures uninterrupted access to domain-joined resources (such as network shares and Group Policy Objects) that would occur if the domain controller's IP address changed via DHCP renewal.
 
@@ -37,6 +38,7 @@ DC-1 is configured with a static IP address to maintain domain stability. This p
 <p>
 <img width="750" height="650" alt="image" src="https://github.com/user-attachments/assets/f91cd1bd-a62c-401b-adda-f633dae1ec0e" />
 </p>
+
 <p>
 To verify connectivity while maintaining a secure environment, the following configuration was implemented:
 
@@ -45,7 +47,6 @@ To verify connectivity while maintaining a secure environment, the following con
 - Executed "ipconfig /flushdns" on Client-1 to clear any stale records.
 - Verified connectivity by pinging DC-1 from Client-1 using the command "ping 10.0.0.4", confirming that the client can successfully reach the domain controller.
 - Verified DNS connectivity by executing "ipconfig /all" on Client-1, confirming that the client is using the domain controller as the DNS server.
-
 </p>
 <br />
 
@@ -70,6 +71,7 @@ To verify connectivity while maintaining a secure environment, the following con
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
@@ -78,6 +80,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
