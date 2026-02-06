@@ -99,6 +99,10 @@ Log out of the local administrator account on DC-1, then log back in as “MYDOM
 </p>
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Login to Client-1 as the original local administrator account and join it to the "mydomain.com" domain. Since Client-1 is using DC-1 as the DNS server, Client-1 is able to locate the domain controller for "mydomain.com".
 </p>
 <br />
+
+<p>
+<img width="750" height="650" alt="image" src="https://github.com/user-attachments/assets/d3afafe0-4f4d-4328-b3c3-6bd6d374b430" />
+</p>
