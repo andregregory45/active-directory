@@ -130,5 +130,5 @@ Log in to Client-1 as "MYDOMAIN\example_admin" and allow standard domain users t
 <br />
 
 <p>
-<img width="750" height="650" alt="image" src="https://github.com/user-attachments/assets/f56c6e7b-a01e-4a3b-81a3-f5c127d5266a" />
+<img width="750" height="650" alt="image" src="https://github.com/user-attachments/assets/34ddec01-9671-4cdf-9f7a-e67ec37db8a8" />
 </p>
