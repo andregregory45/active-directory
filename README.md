@@ -108,10 +108,14 @@ Login to Client-1 as the original local administrator account and join it to the
 </p>
 
 <p>
-Observe that Client-1 appeared in the "Computers" container in Active Directory Users and Computers on DC-1.
+Observe that Client-1 appeared in the "Computers" container in Active Directory Users and Computers on DC-1. Create a new OU named "_CLIENTS", then migrate Client-1 from the "Computers" container to the "_CLIENTS" OU. This allows GPOs to specifically apply to Client-1, since GPOs cannot be linked to containers.
 </p>
 <br />
 
 <p>
 <img width="750" height="650" alt="image" src="https://github.com/user-attachments/assets/824b9102-bbde-4268-820d-bb845efa70e7" />
+</p>
+
+<p>
+<img width="750" height="650" alt="image" src="https://github.com/user-attachments/assets/28466239-5b85-42fe-891a-6f70f80fcb8d" />
 </p>
