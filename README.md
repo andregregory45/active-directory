@@ -143,7 +143,7 @@ View the full script file [here.](https://github.com/andregregory45/active-direc
 <br />
 
 <p>
-<img width="750" height="650" alt="image" src="https://github.com/user-attachments/assets/6efb58c2-b5e5-4367-948e-8a5831e53b3f" />
+<img width="750" height="650" alt="image" src="https://github.com/user-attachments/assets/d8350740-fcb0-4203-b86a-5e94ca4e3662" />
 </p>
 
 <h2>References</h2>
