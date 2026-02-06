@@ -106,3 +106,12 @@ Login to Client-1 as the original local administrator account and join it to the
 <p>
 <img width="750" height="650" alt="image" src="https://github.com/user-attachments/assets/d3afafe0-4f4d-4328-b3c3-6bd6d374b430" />
 </p>
+
+<p>
+Observe that Client-1 appeared in the "Computers" container in Active Directory Users and Computers on DC-1.
+</p>
+<br />
+
+<p>
+<img width="750" height="650" alt="image" src="https://github.com/user-attachments/assets/824b9102-bbde-4268-820d-bb845efa70e7" />
+</p>
