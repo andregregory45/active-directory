@@ -52,7 +52,7 @@ while ($count -lt $NUMBER_OF_ACCOUNTS_TO_CREATE) {
                -Name $username `
                -EmployeeID $username `
                -PasswordNeverExpires $true `
-               -Path "ou=_EMPLOYEES,$(([ADSI]"").distinguishedName)" `
+               -Path "ou=_EMPLOYEES,$(([ADSI]'').distinguishedName)" `
                -Enabled $true
     $count++
 
