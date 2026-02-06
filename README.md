@@ -29,7 +29,7 @@ This environment consists of two virtual machines (VMs) within a unified virtual
 <img width="750" height="650" alt="image" src="https://github.com/user-attachments/assets/473a72b4-2960-40fb-97a8-22b18bd125b4" />
 </p>
 <p>
-DC-1 is configured with a static IP address to maintain consistent name resolution. This prevents authentication failures and ensures uninterrupted access to domain-joined resources (such as network shares and Group Policy Objects) that would occur if the domain controller's IP address unexpectedly changed.
+DC-1 is configured with a static IP address to maintain domain stability. This prevents authentication failures and ensures uninterrupted access to domain-joined resources (such as network shares and Group Policy Objects) that would occur if the domain controller's IP address changed via DHCP renewal.
 
 </p>
 <br />
@@ -38,7 +38,16 @@ DC-1 is configured with a static IP address to maintain consistent name resoluti
 <img width="750" height="650" alt="image" src="https://github.com/user-attachments/assets/f91cd1bd-a62c-401b-adda-f633dae1ec0e" />
 </p>
 <p>
-To confirm that Client-1 is using DC-1 as the DNS server, The "ping" command will be used to test connectivity.
+To verify connectivity while maintaining a secure environment, the following configuration was implemented:
+
+- An Inbound Firewall Rule was created on DC-1 to allow ICMPv4 traffic (ping), rather than disabling the firewall entirely.
+
+</p>
+<br />
+
+<p>
+<img width="750" height="650" alt="image" src="https://github.com/user-attachments/assets/cd9faf34-6f25-47d3-ba96-96bb360d2440" />
+</p>
 
 <h2>Deployment and Configuration</h2>
 
