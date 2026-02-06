@@ -4,7 +4,7 @@
 
 <h1>Active Directory Deployment and Identity Management in Azure</h1>
 
-This project demonstrates the implementation and administration of an Active Directory environment, as well as user account management within Azure virtual machines.
+This project demonstrates the implementation and administration of a cloud-based Active Directory environment, as well as identity and access management.
 
 <h2>Environments, Technologies, and Languages Used</h2>
 
