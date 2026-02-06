@@ -88,7 +88,7 @@ Create "_EMPLOYEES" and "_ADMINS" Organizational Units (OUs) to separate standar
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="750" height="650" alt="image" src="https://github.com/user-attachments/assets/639970de-1e4e-422b-8691-4347871c0d6d" />
 </p>
 
 <p>
