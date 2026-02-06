@@ -69,7 +69,7 @@ To verify connectivity while maintaining a secure environment, the following con
 <h2>Deployment and Configuration</h2>
 
 <p>
-Active Directory Domain Services is installed on DC-1.
+Active Directory Domain Services is installed on the domain controller.
 </p>
 
 <p>
