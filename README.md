@@ -140,7 +140,8 @@ View the full script file [here.](https://github.com/andregregory45/active-direc
 
 <b>Note on Security: In the PowerShell script, passwords are set to never expire. In a production environment, "-ChangePasswordAtLogon $true" would be configured to align with security best practices.</b>
 
-When finished, open Active Directory Users and Computers and observe the accounts in the "_EMPLOYEES" OU.
+When the script has finished executing, open Active Directory Users and Computers and observe the accounts in the "_EMPLOYEES" OU. Log in to Client-1 with one of the accounts using "MYDOMAIN\username" or "username@mydomain.com" (take note of the password in the script).
+
 </p>
 <br />
 
@@ -150,6 +151,10 @@ When finished, open Active Directory Users and Computers and observe the account
 
 <p>
 <img width="750" height="650" alt="image" src="https://github.com/user-attachments/assets/10177283-1734-4eb0-9a49-c0099e6f7f81" />
+</p>
+
+<p>
+<img width="559" height="363" alt="image" src="https://github.com/user-attachments/assets/a535b7d3-0585-45b8-9555-4b52666e188a" />
 </p>
 
 <h2>References</h2>
