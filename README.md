@@ -70,6 +70,8 @@ To verify connectivity while maintaining a secure environment, the following con
 
 <p>
 Install Active Directory Domain Services (AD DS) on DC-1 and promote it to a domain controller. Add a new forest, then specify the root domain name. "mydomain.com" is used as an example domain.
+
+Note on Authentication Syntax: While the domain controller may default to the domain for local logins, always use the Down-Level Logon Name (mydomain.com\labuser) or the User Principal Name (labuser@mydomain.com) when logging into the domain as a client. This ensures explicit authentication and prevents conflicts with local accounts on client machines.
 </p>
 
 <p>
@@ -81,7 +83,7 @@ Install Active Directory Domain Services (AD DS) on DC-1 and promote it to a dom
 </p>
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Lorem ipsum...
 </p>
 <br />
 
