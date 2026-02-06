@@ -86,7 +86,7 @@ Install Active Directory Domain Services (AD DS) on DC-1 and promote it to a dom
 <p>
 Create "_EMPLOYEES" and "_ADMINS" Organizational Units (OUs) to separate standard users from administrator accounts. Create a new user "example_admin" within the "_ADMINS" OU, then assign "example_admin" to the Domain Admins security group. This enables the account to perform domain-wide administrative tasks, such as user provisioning and Group Policy management, while maintaining an audit trail separate from the built-in administrator account. 
   
-Log out of the local administrator account on DC-1, then log back in as “MYDOMAIN\example_admin”.
+Log out of the local administrator account on DC-1, then log back in as “MYDOMAIN\example_admin”. This account will be used for the remainder of this demonstration.
 </p>
 <br />
 
