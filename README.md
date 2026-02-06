@@ -58,7 +58,7 @@ To verify connectivity while maintaining a secure environment, the following con
 </p>
 
 <p>
-<img width="750" height="650" alt="image" src="https://github.com/user-attachments/assets/0a2256ec-c84a-4c85-b800-242f0ed5ea9b" />
+<img width="750" height="650" alt="image" src="https://github.com/user-attachments/assets/04fdd753-0063-43be-bd95-746bd1369dcc" />
 </p>
 
 <p>
