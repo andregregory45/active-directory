@@ -43,7 +43,7 @@ To verify connectivity while maintaining a secure environment, the following con
 - Enabled Inbound Firewall Rules on DC-1 to allow ICMPv4 Echo Requests (ping) rather than disabling the firewall entirely.
 - Updated Client-1's DNS settings in Azure to point to DC-1 as the primary resolver.
 - Executed "ipconfig /flushdns" on Client-1 to clear any stale records.
-- Verified connectivity by pinging DC-1 from Client-1 using the command "ping 10.0.0.4", confirming that the client could successfully reach the domain controller.
+- Verified connectivity by pinging DC-1 from Client-1 using the command "ping 10.0.0.4", confirming that the client can successfully reach the domain controller.
 - Verified name resolution by executing "ipconfig /all" on Client-1, confirming that the client is using the domain controller as the DNS server.
 
 </p>
