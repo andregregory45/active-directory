@@ -200,6 +200,8 @@ Log in to Client-1 as "MYDOMAIN\del.ped" with the correct password, and confirm 
 On Client-1, open Event Viewer as an administrator (MYDOMAIN\example_admin) and observe the Security Logs showing audit failures from the account "del.ped" failing to log on (Event ID 4625). This provides a technical paper trail.
 
 On DC-1, open Event Viewer as an administrator and observe the Security Logs showing the audit failures (due to logon failure) and eventual audit success (Event ID 4740), indicating the account "del.ped" was successfully locked out. This confirms the Account Lockout Policy is functioning as intended.
+
+Filter the Security Logs by the Event ID "4767". This event shows the "del.ped" account being unlocked by "example_admin".
 </p>
 <br />
 
@@ -209,6 +211,10 @@ On DC-1, open Event Viewer as an administrator and observe the Security Logs sho
 
 <p>
 <img width="788" height="409" alt="image" src="https://github.com/user-attachments/assets/0a1078db-24b0-463c-a823-a43a19427e3a" />
+</p>
+
+<p>
+![20260207-0154-37 6331321](https://github.com/user-attachments/assets/fefe3094-7e61-4468-bbfe-2a8454ec1038)
 </p>
 
 <h2>References</h2>
