@@ -174,12 +174,18 @@ Log in to Client-1 as "MYDOMAIN\example_admin", and run "gpupdate /force" to imm
 </p>
 
 <p>
-Attempt to log back in to Client-1 as "MYDOMAIN\del.ped" using an incorrect password 6 times. Observe the error message that shows up indicating the user account has been locked.
+Attempt to log back in to Client-1 as "MYDOMAIN\del.ped" using an incorrect password 5 times, then use the correct password on the 6th attempt. Observe the error message that shows up indicating the user account has been locked. From DC-1, open Active Directory Users and Computers and unlock the account.
+
+Log in to Client-1 as "MYDOMAIN\del.ped" with the correct password, and confirm the account is now unlocked.
 </p>
 <br />
 
 <p>
 <img width="834" height="371" alt="image" src="https://github.com/user-attachments/assets/a146c201-16c6-45f9-a16c-f6cebb70d112" />
+</p>
+
+<p>
+<img width="750" height="650" alt="image" src="https://github.com/user-attachments/assets/0a52f960-8e36-4095-a41f-0442a2270ad6" />
 </p>
 
 <h2>References</h2>
