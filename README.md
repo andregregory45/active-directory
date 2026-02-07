@@ -20,7 +20,7 @@ This project demonstrates the implementation and administration of a cloud-based
 
 <h2>Table of Contents</h2>
 
-- [Setting Up Infrastructure for Active Directory](https://github.com/andregregory45/active-directory/tree/main?tab=readme-ov-file#setting-up-infrastructure-for-active-directory)
+- <a href="#setting-up-infrastructure-for-active-directory">Setting Up Infrastructure for Active Directory</a>
 - Deployment and Configuration
 - Bulk User Provisioning with PowerShell
 - Group Policy and Account Management
