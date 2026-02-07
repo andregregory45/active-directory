@@ -173,6 +173,15 @@ Log in to Client-1 as "MYDOMAIN\example_admin", and run "gpupdate /force" to imm
 <img width="750" height="650" alt="image" src="https://github.com/user-attachments/assets/38c4f265-bc20-41f8-940d-0ee98c27fb73" />
 </p>
 
+<p>
+Attempt to log back in to Client-1 as "MYDOMAIN\del.ped" using an incorrect password 6 times. Observe the error message that shows up indicating the user account has been locked.
+</p>
+<br />
+
+<p>
+<img width="834" height="371" alt="image" src="https://github.com/user-attachments/assets/a146c201-16c6-45f9-a16c-f6cebb70d112" />
+</p>
+
 <h2>References</h2>
 
 - Original Source of Bulk User Creation Script: https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1
