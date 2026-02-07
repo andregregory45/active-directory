@@ -188,6 +188,10 @@ Log in to Client-1 as "MYDOMAIN\del.ped" with the correct password, and confirm 
 <img width="750" height="650" alt="image" src="https://github.com/user-attachments/assets/0a52f960-8e36-4095-a41f-0442a2270ad6" />
 </p>
 
+<p>
+<img width="500" height="350" alt="image" src="https://github.com/user-attachments/assets/a65173ad-9979-4e07-b8e2-96b5b7ca61f5" />
+</p>
+
 <h2>References</h2>
 
 - Original Source of Bulk User Creation Script: https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1
