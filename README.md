@@ -196,6 +196,21 @@ Log in to Client-1 as "MYDOMAIN\del.ped" with the correct password, and confirm 
 <img width="500" height="350" alt="image" src="https://github.com/user-attachments/assets/a65173ad-9979-4e07-b8e2-96b5b7ca61f5" />
 </p>
 
+<p>
+On Client-1, open Event Viewer as an administrator (MYDOMAIN\example_admin) and observe the Security Logs showing audit failures from the account "del.ped" failing to log on (Event ID 4625). This provides a technical paper trail.
+
+On DC-1, open Event Viewer as an administrator and observe the Security Logs showing the audit failures (due to logon failure) and eventual audit success (Event ID 4740), indicating the account "del.ped" was successfully locked out. This confirms the Account Lockout Policy is functioning as intended.
+</p>
+<br />
+
+<p>
+<img width="788" height="409" alt="image" src="https://github.com/user-attachments/assets/b74ae175-c644-402a-b061-986c3f8ee920" />
+</p>
+
+<p>
+<img width="788" height="409" alt="image" src="https://github.com/user-attachments/assets/0a1078db-24b0-463c-a823-a43a19427e3a" />
+</p>
+
 <h2>References</h2>
 
 - Original Source of Bulk User Creation Script: https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1
