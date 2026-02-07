@@ -4,7 +4,7 @@
 
 <h1>Active Directory Deployment and Identity Management in Azure</h1>
 
-This project demonstrates the implementation and administration of a cloud-based Active Directory environment, in which identity and access management is performed.
+This project demonstrates the implementation and administration of a cloud-based Active Directory environment. Key highlights include the automated provisioning of 1,000 users via PowerShell, the implementation of domain-wide security governance through Group Policy, and the confirmation of Group Policy application via Event Viewer log analysis.
 
 <h2>Environments, Technologies, and Languages Used</h2>
 
