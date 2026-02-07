@@ -2,7 +2,7 @@
 <img src="https://cdn.worldvectorlogo.com/logos/active-directory-1.svg" alt="Microsoft Active Directory Logo"/>
 </p>
 
-<h1>Active Directory Deployment and Identity Management in Azure</h1>
+<h1>Active Directory Deployment and Administration in Azure</h1>
 
 This project demonstrates the implementation and administration of a cloud-based Active Directory environment. Key highlights include the automated provisioning of 1,000 users via PowerShell, the implementation of domain-wide security governance through Group Policy, and the confirmation of Group Policy application via Event Viewer log analysis.
 
