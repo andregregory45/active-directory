@@ -18,6 +18,15 @@ This project demonstrates the implementation and administration of a cloud-based
 - Windows Server 2022
 - Windows 11 Pro, version 25H2
 
+<h2>Table of Contents</h2>
+
+- [Setting Up Infrastructure for Active Directory](https://github.com/andregregory45/active-directory/tree/main?tab=readme-ov-file#setting-up-infrastructure-for-active-directory)
+- Deployment and Configuration
+- Bulk User Provisioning with PowerShell
+- Group Policy and Account Management
+- Conclusion
+- References
+
 <h2>Setting Up Infrastructure for Active Directory</h2>
 
 <p>
