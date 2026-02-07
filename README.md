@@ -21,7 +21,7 @@ This project demonstrates the implementation and administration of a cloud-based
 <h2>Table of Contents</h2>
 
 - <a href="#setting-up-infrastructure-for-active-directory">Setting Up Infrastructure for Active Directory</a>
-- <a href="deployment-and-configuration">Deployment and Configuration</a>
+- <a href="#deployment-and-configuration">Deployment and Configuration</a>
 - Bulk User Provisioning with PowerShell
 - Group Policy and Account Management
 - Conclusion
