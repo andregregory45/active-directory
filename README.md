@@ -159,14 +159,18 @@ When the script has finished executing, open Active Directory Users and Computer
 <h2>Group Policy and Account Management</h2>
 
 <p>
-On DC-1, open the Group Policy Management Console (GPMC), and edit the <b>Default Domain Policy</b> to lock accounts after 5 invalid login attempts. This ensures the policy is active for all 1,000 accounts provisioned in the "_EMPLOYEES" OU.
-  
-Path: Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Account Lockout Policy
+On DC-1, open the Group Policy Management Console (GPMC), and edit the <b>Default Domain Policy</b> to lock out accounts after 5 invalid logon attempts. This ensures the policy is active for all 1,000 accounts provisioned in the "_EMPLOYEES" OU. (Path: Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Account Lockout Policy)
+
+Log in to Client-1 as "MYDOMAIN\example_admin", and run "gpupdate /force" to immediately apply Group Policy changes.
 </p>
 <br />
 
 <p>
 <img width="750" height="650" alt="image" src="https://github.com/user-attachments/assets/a479870c-c308-46ed-9479-32bcaeb3c5b0" />
+</p>
+
+<p>
+<img width="750" height="650" alt="image" src="https://github.com/user-attachments/assets/38c4f265-bc20-41f8-940d-0ee98c27fb73" />
 </p>
 
 <h2>References</h2>
