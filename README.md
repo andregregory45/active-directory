@@ -25,7 +25,7 @@ This project demonstrates the implementation and administration of a cloud-based
 - <a href="#bulk-user-provisioning-with-powershell">Bulk User Provisioning with PowerShell</a>
 - <a href="#group-policy-and-account-management">Group Policy and Account Management</a>
 - <a href="#conclusion">Conclusion</a>
-- References
+- <a href="#references">References</a>
 
 <h2>Setting Up Infrastructure for Active Directory</h2>
 
