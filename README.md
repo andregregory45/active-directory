@@ -214,7 +214,7 @@ Filter the Security Logs by the Event ID "4767". This event shows the "del.ped" 
 </p>
 
 <p>
-![20260207-0154-37 6331321](https://github.com/user-attachments/assets/fefe3094-7e61-4468-bbfe-2a8454ec1038)
+<img width="788" height="746" alt="image" src="https://github.com/user-attachments/assets/0a5043dc-b029-40fb-a16a-d61874ec6eee" />
 </p>
 
 <h2>References</h2>
