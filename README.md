@@ -174,7 +174,7 @@ Log in to Client-1 as "MYDOMAIN\example_admin", and run "gpupdate /force" to imm
 </p>
 
 <p>
-Attempt to log back in to Client-1 as "MYDOMAIN\del.ped" using an incorrect password 5 times, then use the correct password on the 6th attempt. Observe the error message that shows up indicating the user account has been locked. From DC-1, open Active Directory Users and Computers and unlock the account.
+Attempt to log back in to Client-1 as "MYDOMAIN\del.ped" using an incorrect password 5 times, then use the correct password on the 6th attempt. Observe the error message that shows up indicating the user account has been locked. From DC-1, open Active Directory Users and Computers and unlock the account. You can also right-click on an account in ADUC to <b>reset its password</b> or <b>disable the account.</b>
 
 Log in to Client-1 as "MYDOMAIN\del.ped" with the correct password, and confirm the account is now unlocked.
 </p>
@@ -186,6 +186,10 @@ Log in to Client-1 as "MYDOMAIN\del.ped" with the correct password, and confirm 
 
 <p>
 <img width="750" height="650" alt="image" src="https://github.com/user-attachments/assets/0a52f960-8e36-4095-a41f-0442a2270ad6" />
+</p>
+
+<p>
+<img width="562" height="421" alt="image" src="https://github.com/user-attachments/assets/1d1afc2e-149f-4732-9feb-d832cb1631d2" />
 </p>
 
 <p>
