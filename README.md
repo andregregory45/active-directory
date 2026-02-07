@@ -217,6 +217,12 @@ Filter the Security Logs by the Event ID "4767". This event shows the "del.ped" 
 <img width="788" height="746" alt="image" src="https://github.com/user-attachments/assets/0a5043dc-b029-40fb-a16a-d61874ec6eee" />
 </p>
 
+<h2>Conclusion</h2>
+
+<p>
+This project successfully demonstrated the implementation and administration of a scalable Active Directory environment in Azure. The primary goal was to move beyond theoretical knowledge and perform the actual tasks of a Help Desk Technician/System Administrator. Through the successful deployment of Active Directory Domain Services, automating user provisioning, configuring Group Policy settings, and security auditing, I have verified my ability to manage the core components of a modern Windows Server environment.
+</p>
+
 <h2>References</h2>
 
 - Original Source of Bulk User Creation Script: https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1
