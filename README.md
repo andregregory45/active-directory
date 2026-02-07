@@ -141,7 +141,6 @@ View the full script file [here.](https://github.com/andregregory45/active-direc
 <b>Note on Security: In the PowerShell script, passwords are set to never expire. In a production environment, "-ChangePasswordAtLogon $true" would be configured to align with security best practices.</b>
 
 When the script has finished executing, open Active Directory Users and Computers and observe the accounts in the "_EMPLOYEES" OU. Log in to Client-1 with one of the accounts using "MYDOMAIN\username" or "username@mydomain.com" (take note of the password in the script).
-
 </p>
 <br />
 
@@ -160,7 +159,15 @@ When the script has finished executing, open Active Directory Users and Computer
 <h2>Group Policy and Account Management</h2>
 
 <p>
-When the
+On DC-1, open the Group Policy Management Console (GPMC), and edit the <b>Default Domain Policy</b> to lock accounts after 5 invalid login attempts. This ensures the policy is active for all 1,000 accounts provisioned in the "_EMPLOYEES" OU.
+  
+Path: Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Account Lockout Policy
+</p>
+<br />
+
+<p>
+<img width="750" height="650" alt="image" src="https://github.com/user-attachments/assets/a479870c-c308-46ed-9479-32bcaeb3c5b0" />
+</p>
 
 <h2>References</h2>
 
